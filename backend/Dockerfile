@@ -2,7 +2,7 @@ FROM python:3.12-alpine
 
 WORKDIR /app
 
-COPY server.py .
+COPY app.py .
 
 EXPOSE 8080
 
@@ -11,4 +11,4 @@ chown -R backenduser:backendgroup /app
 
 USER backenduser
 
-CMD ["python", "server.py"]
+CMD ["python", "app.py"]
