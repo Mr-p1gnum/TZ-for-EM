@@ -98,8 +98,7 @@ Deployed via Docker Compose
 ├── .gitignore
 ├── backend/
 │   ├── Dockerfile
-│   ├── app.py
-│   └── .gitignore
+│   └── app.py
 └── nginx/
     ├── nginx.conf
     └── conf.d/
